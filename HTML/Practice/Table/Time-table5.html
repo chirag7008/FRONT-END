@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple HTML Table</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; max-width: 700px; margin: 0 auto; }
+    caption { font-weight: bold; margin-bottom: 8px; }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    thead th { background: #f2f2f2; }
+    tbody tr:nth-child(odd) { background: #fafafa; } /* zebra */
+    tbody tr:hover { background: #e8f4ff; }           /* hover */
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Scores</caption>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ravi</td>
+        <td>Math</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Asha</td>
+        <td>Science</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Neha</td>
+        <td>English</td>
+        <td>81</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
